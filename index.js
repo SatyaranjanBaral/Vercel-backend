@@ -20,7 +20,9 @@ const PORT = process.env.PORT || 5000;
 
 // ✅ CORS Configuration
 const corsOptions = {
-  origin: "http://localhost:5173", // your frontend URL
+  // origin: "http://localhost:5173",
+  origin: "https://vercel.com/satyaranjanbarals-projects/vercel-backend/BYJ3nYycaa5DuBXzvdUmFsomh8kG", 
+  // your frontend URL
   credentials: true, // allows cookies / tokens
 };
 
